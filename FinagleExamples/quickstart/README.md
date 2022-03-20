@@ -1,18 +1,15 @@
 # Quickstart
 
-## Compile
-
-sbt compile
-
-## Run
+## Server
 
 sbt 'runMain Server'
 
-## Client
+## Clients
 
 curl -D - localhost:8080
+sbt 'runMain Client'
 
-## more info
+## More Info
 
 https://twitter.github.io/finagle/guide/Quickstart.html
 
