@@ -1,8 +1,6 @@
-//#imports
 import com.twitter.finagle.{Http, Service}
 import com.twitter.finagle.http
 import com.twitter.util.{Await, Future}
-//#imports
 
 object Server extends App {
 //#service
